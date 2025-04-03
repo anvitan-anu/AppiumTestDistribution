@@ -10,8 +10,7 @@
     "maxTypingFrequency": 10,
     "automationName": "XCUITest",
     "usePrebuiltWDA": true,
-    "appium:iPhoneOnly": true,
-    "startScreenRecording":true
+    "appium:iPhoneOnly": true
   },
   "serverConfig" : {
     "server": {
@@ -20,7 +19,6 @@
         "device-farm": {
           "platform": "iOS",
           "skipChromeDownload": true,
-          "liveStreaming":true,
           "derivedDataPath": {
             "simulator": ""
           }
